@@ -15,6 +15,7 @@ echo "Installing apps..."
 brew install --cask \
     google-chrome \
     warp \
+    raycast \
     cursor \
     shottr \
     granola \
