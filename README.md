@@ -1,16 +1,13 @@
 # Setup
 
 ```bash
-# 1. Open Terminal
-
-# 2. Install git & sign into GitHub
-xcode-select --install
-gh auth login  # or: generate a PAT at github.com/settings/tokens
-
-# 3. Clone and run
-git clone https://github.com/tedspare/dotfiles.git ~/.dotfiles
-chmod +x ~/.dotfiles/setup.sh
-~/.dotfiles/setup.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install gh
+gh auth login
+git clone https://github.com/tedspare/dotfiles.git ./.dotfiles
+cd ./.dotfiles
+chmod +x ./setup.sh
+./setup.sh
 ```
 
 ## Programs
