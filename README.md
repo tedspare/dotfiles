@@ -1,9 +1,7 @@
-# Ted's Mac Setup
-
-Factory reset? New Mac? Run this:
+# Setup
 
 ```bash
-# 1. Open Terminal (zsh is default on macOS)
+# 1. Open Terminal
 
 # 2. Install git & sign into GitHub
 xcode-select --install
@@ -15,7 +13,7 @@ chmod +x ~/.dotfiles/setup.sh
 ~/.dotfiles/setup.sh
 ```
 
-## What gets installed
+## Programs
 
 | App | Install method |
 |-----|----------------|
