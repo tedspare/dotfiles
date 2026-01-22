@@ -21,7 +21,8 @@ brew install --cask \
     granola \
     slack \
     proton-pass \
-    notion-calendar
+    notion-calendar \
+    docker
 
 # Install Bun
 echo "Installing Bun..."
@@ -31,4 +32,8 @@ curl -fsSL https://bun.sh/install | bash
 echo "Installing Claude Code..."
 curl -fsSL https://claude.ai/install.sh | bash
 
-echo "✅ Done! Restart your terminal to use bun and claude."
+# Symlink dotfiles
+echo "Linking dotfiles..."
+ln -sf ~/.dotfiles/.zshrc ~/.zshrc
+
+echo "✅ Done! Restart your terminal to apply changes."

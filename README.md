@@ -22,5 +22,12 @@ chmod +x ./setup.sh
 | Slack | `brew --cask` |
 | Proton Pass | `brew --cask` |
 | Notion Calendar | `brew --cask` |
+| Docker Desktop | `brew --cask` |
 | Bun | `bun.sh/install` |
 | Claude Code | `claude.ai/install.sh` |
+
+## Dotfiles
+
+| File | Description |
+|------|-------------|
+| `.zshrc` | Shell aliases and PATH config |
